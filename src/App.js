@@ -10,9 +10,7 @@ import {auth,createUserProfileDocument} from './firebase/firebase.util';
 import { setCurrentUser } from './redux/user-reducer-action/user.action';
 
 class App extends Component {
-
-
-
+  
   unsubscribeFromAuth = null;
 
   componentDidMount() {
